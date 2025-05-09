@@ -1,0 +1,183 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Abdallah Bahaa</title>
+  <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/css/bootstrap.min.css" rel="stylesheet">
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.1/css/all.min.css" />
+  <style>
+    body {
+      background-color: #0e0e0e;
+      color: white;
+      font-family: 'Segoe UI', sans-serif;
+    }
+    .navbar {
+      background-color: #1a1a1a;
+    }
+    .nav-link, .navbar-brand {
+      color: white !important;
+    }
+    .nav-link:hover {
+      color: #27ae60 !important;
+    }
+    .btn-custom {
+      background-color: #2ecc40;
+      color: white;
+      border: none;
+      box-shadow: 0 0 10px #2ecc40;
+    }
+    .btn-custom:hover {
+      background-color: #27ae60;
+    }
+    .project-card img {
+      border-radius: 10px;
+      height: 200px;
+      object-fit: cover;
+    }
+    footer {
+      background: #1a1a1a;
+      color: white;
+    }
+  </style>
+</head>
+<body>
+
+  <nav class="navbar navbar-expand-lg px-4">
+    <div class="container-fluid">
+      <a class="navbar-brand fw-bold" href="#">Abdallah Bahaa</a>
+      <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav">
+        <span class="navbar-toggler-icon text-white"></span>
+      </button>
+      <div class="collapse navbar-collapse justify-content-end" id="navbarNav">
+        <ul class="navbar-nav">
+          <li class="nav-item"><a class="nav-link" href="#about">About Me</a></li>
+          <li class="nav-item"><a class="nav-link" href="#projects">Projects</a></li>
+          <li class="nav-item"><a class="nav-link" href="#contact">Contact</a></li>
+        </ul>
+      </div>
+    </div>
+  </nav>
+
+  <header class="py-5 text-center">
+    <div class="container">
+      <img src="images/myphoto.jpeg" class="rounded-circle mb-3" style="width: 150px;" alt="Profile Image" />
+      <h1 class="display-5 fw-bold">Abdallah Bahaa</h1>
+      <p class="lead">Full-Stack Developer | Mobile & Cloud Computing</p>
+      <a href="#contact" class="btn btn-custom mt-3">Let's get started</a>
+    </div>
+  </header>
+
+  <section class="text-center my-5">
+    <div class="container">
+      <h2 class="text-success">Skills & Tools</h2>
+      <div class="d-flex flex-wrap justify-content-center gap-4 mt-4">
+        <img src="images/android.png" alt="Android" width="60">
+        <img src="images/html5.png" alt="HTML5" width="60">
+        <img src="images/css.png" alt="CSS" width="60">
+        <img src="images/database.png" alt="Database" width="60">
+        <img src="images/flask.png" alt="Flask" width="60">
+      </div>
+    </div>
+  </section>
+
+  <section id="about" class="py-5 bg-dark">
+    <div class="container">
+      <h2 class="text-success text-center mb-4">About Me</h2>
+      <p class="fs-5">
+        I'm <strong>Abdallah Bahaa</strong>, a passionate Full-Stack Developer with a strong background in mobile and web development.
+        I hold a Bachelor's degree in Computer Science, majoring in Mobile and Cloud Computing from the Canadian International College.
+      </p>
+      <p class="fs-5">
+        I’ve built real-world Android apps and web platforms using Java, Kotlin, Flask, and PHP. My internships with MCIT and Artronix helped sharpen my teamwork, project planning, and deployment skills.
+      </p>
+      <p class="fs-5">
+        <strong>What I Do:</strong><br>
+        Mobile Development • Web Development • UI/UX Design • Database Management • Linux & System Admin
+      </p>
+      <div class="text-center mt-4">
+        <a href="Abdallah Bahaa.pdf" download class="btn btn-custom">Download Resume</a>
+      </div>
+    </div>
+  </section>
+
+  <section id="projects" class="py-5">
+    <div class="container">
+      <h2 class="text-success text-center mb-4">Recent Work</h2>
+      <div class="row g-4">
+        <div class="col-md-6 col-lg-4">
+          <div class="card bg-secondary project-card">
+            <img src="images/imas.png" class="card-img-top" alt="IMAS Website">
+            <div class="card-body">
+              <h5 class="card-title">IMAS 2023 Website</h5>
+              <p class="card-text">A site for a microwave conference at GUC.</p>
+              <a href="https://imas2023.mtt.org/" class="btn btn-custom" target="_blank">View IMAS</a>
+            </div>
+          </div>
+        </div>
+        <div class="col-md-6 col-lg-4">
+          <div class="card bg-secondary project-card">
+            <img src="images/aiming.png" class="card-img-top" alt="Aiming Project">
+            <div class="card-body">
+              <h5 class="card-title">Aiming</h5>
+              <p class="card-text">Smart e-learning platform connecting students & companies.</p>
+              <a href="#" class="btn btn-custom" target="_blank">View Aiming</a>
+            </div>
+          </div>
+        </div>
+        <div class="col-md-6 col-lg-4">
+          <div class="card bg-secondary project-card">
+            <img src="images/twitter.png" class="card-img-top" alt="Switter Clone">
+            <div class="card-body">
+              <h5 class="card-title">Switter</h5>
+              <p class="card-text">A Twitter clone using HTML and CSS from scratch.</p>
+              <a href="https://switter2025.netlify.app/" class="btn btn-custom" target="_blank">View Switter</a>
+            </div>
+          </div>
+        </div>
+        <div class="col-md-6 col-lg-4">
+          <div class="card bg-secondary project-card">
+            <img src="images/youtube.png" class="card-img-top" alt="YouTube Clone">
+            <div class="card-body">
+              <h5 class="card-title">YouTube Clone</h5>
+              <p class="card-text">A YouTube layout clone built with HTML & CSS.</p>
+              <a href="https://youtubeclone2026.netlify.app/" class="btn btn-custom" target="_blank">View YouTube Clone</a>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <section id="contact" class="py-5 bg-dark text-center">
+    <div class="container">
+      <h2 class="text-success mb-4">Get in Touch</h2>
+      <p class="fs-5 mb-4">Reach out for collaborations or just to connect!</p>
+      <div class="mb-4">
+        <a href="mailto:Abdallah.bahaa2000@gmail.com" class="text-white me-3"><i class="fa-solid fa-envelope fa-lg"></i></a>
+        <a href="https://www.linkedin.com/in/abdallah-bahaa-70424b216" target="_blank" class="text-white me-3"><i class="fab fa-linkedin fa-lg"></i></a>
+        <a href="https://github.com/AbdallahBahaa" target="_blank" class="text-white"><i class="fab fa-github fa-lg"></i></a>
+      </div>
+
+      <form action="https://formspree.io/f/YOUR_FORM_ID" method="POST" class="mx-auto" style="max-width: 500px;">
+        <div class="mb-3">
+          <input type="text" class="form-control" name="name" placeholder="Your Name" required />
+        </div>
+        <div class="mb-3">
+          <input type="email" class="form-control" name="email" placeholder="Your Email" required />
+        </div>
+        <div class="mb-3">
+          <textarea class="form-control" name="message" placeholder="Your Message" rows="4" required></textarea>
+        </div>
+        <button type="submit" class="btn btn-custom">Send Message</button>
+      </form>
+    </div>
+  </section>
+
+  <footer class="text-center py-3 mt-4">
+    &copy; 2025 Abdallah Bahaa. All rights reserved.
+  </footer>
+
+  <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/js/bootstrap.bundle.min.js"></script>
+</body>
+</html>
